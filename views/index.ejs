@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Button Game</title>
+	<link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>​
+	<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="/main.js"></script>
+</head>
+<body>
+	<div class="container text-center">
+		<h1>The Great Button Game</h1>
+		<hr>
+		<div class="jumbotron">
+			<h2>The button has been pushed <span id="message">0</span> times(s)</h2>
+			<span id="happy"></span>
+			<p>Push the button to update the count!</p>
+			<p><button id="push" class="btn btn-primary btn-lg">Push It!</button></p>
+		</div>
+		<hr>
+		<p><button id="reset" class="btn btn-danger btn-sm">Reset</button></p>
+	</div>
+</body>
+</html>
